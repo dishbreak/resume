@@ -1,0 +1,65 @@
+---
+name: Vishal Kotcherlakota
+objective: DevOps position focused on design and implementation of large-scale software projects.
+contact: 
+  email: vishal@kotcherlakota.org
+  github_url: github.com/dishbreak
+  phone: (510) 673-4498
+  website: kotcherlakota.org
+skills:
+  languages:
+    - Go
+    - Python
+    - Bash
+    - Docker/Docker Compose
+    - Terraform HCL
+  additional:
+    - Participated in and led Agile development teams.
+    - Proficient in workflow tools including: Git, Jenkins, Terraform,  JIRA, Confluence, Ansible, Chef, Vagrant, and Packer.
+    - Experience with microservices, ReST/HTTP API design, infrastructure-as-code, config management, and systems monitoring/alerting.
+key_achievements:
+  - Migrated identity services off of an EC2 Cluster to an ECS service with zero downtime and minimal disruption to day-to-day operations.
+  - Redesigned our ECS cluster, taking advantage of Capacity Providers to increase operator flexibility and leveraging Terraform Cloud to simplify operations and management.
+  - Developed a utility that queried Elasticsearch data via histogram aggregation and exported metrics to Datadog via HTTP rest. The utility fed C-Suite visibility into business operations and performance.
+  - Built and deployed complete infrastructure-as-code projects utilizing Docker, GNU Make, Gradle, and Terraform.
+  - Designed, deployed, and maintained a microservices architecture for new feature development to ECS. 
+  - Made significant upgrades to a Mesos framework used for batch job scheduling, including high availability support and infrastructure as code/config management.
+education:
+  - name: University of California, Los Angeles
+    start: 2012
+    end: 2015
+    degree: M.S. Engineering (Computer Networks)
+  - name: University of California, San Diego
+    start: 2006
+    end: 2010
+    degree: B.S. Electrical Engineering
+experience:
+  - employer: NerdWallet
+    start: December 2018
+    end: Present
+    positions:
+      - title: Engineering Manager, Infrastructure Engineering
+        start: May 2022
+        end: Present
+        summary:
+          - Led a team of 7 focused on developer productivity and release engineering
+          - Oversaw a full overhaul of our stack, including migrations to Kubernetes and Github Actions
+          - Product owner for Build/Deploy pipeline and Developer Experience tooling
+          - Oversaw 3 promotions (2 to staff engineer, 1 to SWE II)
+          - Contributed to development work alongside management duties
+        technologies:
+          - Go
+          - Bash
+          - Github Actions
+          - Kubernetes
+          - Elastic Kubernetes Service (EKS)
+          - Terraform
+          - Helm
+          - ArgoCD
+      - title: Staff Devops Engineer
+        start: December 2018
+        end: May 2022
+        summary: 
+          - Enabled developers to deploy features to production quickly and safely.
+          - Participated in a 24/7 oncall rotation, responding to incidents that impact our site's ability to operate.
+          - Planned and executed multiple migrations and upgrades, including a database split, major version DB upgrade, and Dockerizing an application. Developed standards and best practices that other teams adopted.
